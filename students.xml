@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="students.xsl"?>
+<class>
+    <student rollno="18">
+        <firstname>Suraj</firstname>
+        <lastname>Munde</lastname>
+        <nickname>S.M</nickname>
+        <marks>90</marks>
+        <department>Computer Science</department>
+    </student>
+    <student rollno="493">
+        <firstname>Vaneet</firstname>
+        <lastname>Gupta</lastname>
+        <nickname>Vinni</nickname>
+        <marks>95</marks>
+        <department>Computer Science</department>
+    </student>
+    <student rollno="593">
+        <firstname>Jasvir</firstname>
+        <lastname>Singh</lastname>
+        <nickname>Jazz</nickname>
+        <marks>90</marks>
+        <department>Computer Science</department>
+    </student>
+</class>

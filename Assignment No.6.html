@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Experiment 6 - HTML Frames</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+        }
+
+        .header {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        .container {
+            display: flex;
+            height: 90vh;
+        }
+
+        .menu {
+            width: 30%;
+            border-right: 2px solid #efeaea;
+        }
+
+        .content {
+            width: 70%;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Experiment 6: Create Webpage to Include Frames Using HTML Tag</h1>
+        <p>Demonstration of HTML frame-like layout using iframes.</p>
+        <p><strong>Name:</strong> Suraj Govind Munde<br><strong>Roll No:</strong> 18</p>
+    </div>
+
+    <div class="container">
+
+
+        <!-- Left Menu Frame -->
+        <div class="menu">
+            <iframe src="Basics.html"></iframe>
+        </div>
+
+        <!-- Right Content Frame -->
+        <div class="content">
+            <iframe src="image.html"></iframe>
+        </div>
+
+    </div>
+
+</body>
+</html>
